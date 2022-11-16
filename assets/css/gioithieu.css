@@ -1,0 +1,46 @@
+.gioithieu__img {
+    width: 100%;
+}
+
+.gioithieu {
+    position: relative;
+}
+
+.gioithieu__chua {
+    position: absolute;
+    top: 20%;
+    left: 150px;
+}
+
+.gioithieu__logo {
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+
+.gioithieu__title {
+    color: var(--white-color);
+}
+
+.gioithieu__sp {
+    color: var(--white-color);
+    font-size: 1.5rem;
+    margin-left: 12px;
+}
+
+.gioithieu__title-sologant {
+    color: var(--white-color);
+    font-size: 1.5rem;
+}
+
+.gioithieu__title-sologant-des {
+    width: 456px;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.gioithieu__btn {
+    position: absolute;
+    bottom: -65px;
+    left: 125px;
+}

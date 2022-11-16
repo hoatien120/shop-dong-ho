@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/thanhvien.css">
+    <title>Thành Viên</title>
+    <script src="../js/jquery-3.6.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            158, Lý Thường Kiệt, Phường 14, Quận 10, TP.HCM
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer ">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="../img/DongHoThongBao1.jpg" alt=""
+                                                class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">ĐỒNG HỒ NAM Q&Q</span>
+                                                <span class="header__notify-description">Mã loại sản phẩm QQ-S280J312Y
+                                                    <br>
+                                                    Loại máy:Automatic <br>
+                                                    Giá Niêm Yết: 1.470.000đ </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="../img/DongHoThongBao2.jpg" alt=""
+                                                class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">ĐỒNG HỒ NAM CASIO</span>
+                                                <span class="header__notify-description">Mã sản phẩm: H32675150 <br>
+                                                    Loại máy:Automatic (Máy cơ tự động) <br>
+                                                    Giá Niêm Yết: 1.990.000đ</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="../img/DongHoThongBao3.jpg" alt=""
+                                                class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">APPLE WATCH SERIES 5 GPS</span>
+                                                <span class="header__notify-description">44mm Aluminum <br>
+                                                    Case with sport band <br>
+                                                    Giá Niêm Yết: 4.590.000đ
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="../html/sanpham.html" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate "><a
+                                href="../html/dangky.html" class="sign"> Đăng ký</a></li>
+                        <li class="header__navbar-item header__navbar-item--strong "> <a href="../html/dangnhap.html" class="sign"> Đăng nhập
+                            </a></li>
+
+                    </ul>
+                </nav>
+
+                <!-- Thanh tìm kiếm -->
+                <div class="header-with__search">
+                    <div class="header__logo">
+                        <a href="../../index.html" class="header__logo-link">
+                            <img src="../img/logochinh.jpg" alt="logo" class="header__logo-img">
+                        </a>
+                    </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
+
+                            <!-- search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Đồng hồ Casio</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Đồng hồ nam sang trọng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                       <a href="../html/donghonam.html">
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                       </a>
+                    </div>
+
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+
+                            <!-- No cart; header__cart-list--no-cart -->
+                            <div class="header__cart-list ">
+                                <img src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- cart item  -->
+                                    <li class="header__cart-item">
+                                        <img src="../img/DongHoGioHang1.png" alt="hinh san pham"
+                                            class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Đồng Hồ Nam Casio</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Đồng Hồ Cơ
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="../img/DongHoGioHang2.png" alt="hinh san pham"
+                                            class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Đồng Hồ SRwatch Nữ</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">1.450.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Đồng Hồ Cơ
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="../img/DongHoGioHang3.png" alt="hinh san pham"
+                                            class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Đồng Hồ Casio</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">3.190.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">3</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Đồng Hồ Điện Tử
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="../html/giohang.html" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- menu  -->
+            <div class="menu ">
+                <ul class="nav">
+                    <li><a href="../../index.html">TRANG CHỦ</a></li>
+                    <li><a href="../html/sanpham.html">SẢN PHẨM</a>
+                        <ul class="subnav">
+                            <li><a href="../html/donghonam.html">Đồng Hồ Nam</a></li>
+                            <li><a href="../html/donghonu.html">Đồng Hồ Nữ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../html/gioithieu.html">GIỚI THIỆU</a></li>
+                    <li><a href="../html/thanhvien.html" style="color: #c79978; font-size: 18px;">THÀNH VIÊN</a></li>
+                    <li><a href="../html/sitemap.html">SITEMAP</a></li>
+                </ul>
+            </div>
+        </header>
+
+
+        <!-- container thành viên  -->
+        <div class="content">
+            <div class="title">
+                <h1 class="team">WEB TEAM</h1> 
+                <p class="slogan"><i>Nothing is impossible</i></p>
+            </div>
+           <div class="container">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-3">
+                        <img class="thanhvien" src="../img/thanhviennam.png" alt="">
+                        <div class="info">
+                            <h2 class="name">Hoa Minh Tiến</h2>
+                            <h3 class="mssv">20056671</h3>
+                        </div> 
+                        <div class="mxh">
+                            <a href="https://www.twitter.com/" class="icon-link">
+                                <i class="fa-brands fa-square-twitter"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" class="icon-link">
+                                <i class="face fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/" class="icon-link">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>   
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-3">
+                        <img class="thanhvien" src="../img/thanhviennam.png" alt="">
+                        <div class="info">
+                            <h2 class="name" >Lê Minh Thiện</h2>
+                            <h3 class="mssv">20063061</h3>
+                        </div> 
+                        <div class="mxh">
+                            <a href="https://www.twitter.com" class="icon-link">
+                                <i class="fa-brands fa-square-twitter"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" class="icon-link">
+                                <i class="face fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/" class="icon-link">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>  
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+           </div>
+
+
+            
+            
+            
+            
+        </div>
+
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading" style="margin-left: 20px;">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list" style="margin-left: 20px;">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Shop-T&T mall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính sách đổi hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính sách bảo hành</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu cửa hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều khoản</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Thông báo mới</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Về chúng tôi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    Hotline: 1808.1508 - 1900.1509
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    Tel: 0974.777.999 - 0885.666.888
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    158, Lý Thường Kiệt, P14, Q10, TP.HCM
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-linkedin"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="../img/qr_code.png" alt="Mã QR" class="footer__download-qr" >
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="../img/app_store.png" alt="app store" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                <img src="../img/google_play.png" alt="gg play" class="footer__download-app-img">
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="footer__bottom">
+                <div class="grid">
+                    <div class="footer__bottomm">
+                            <p class="footer__text" >Ⓒ 2022 - Bản quyền thuộc về Công ty Đồng Hồ T&T</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

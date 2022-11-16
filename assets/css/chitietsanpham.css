@@ -1,0 +1,128 @@
+.sp-img {
+    width: 150px;
+    height: 140px;
+}
+
+.chua-sp-chinh {
+    border: 2px solid #333;
+    margin: 0 0px;
+    border-radius: 3px;
+}
+
+.sp-chinh {
+    width: 360px;
+    height: 350px;
+    margin-top: 20px;
+
+}
+
+.sp-info {
+    width: 510px;
+    height: 420px;
+}
+
+.dathang {
+    margin-top: 10px;
+    width: 100%;
+    color: var(--white-color);
+    background-color: #019ad2;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dathang:hover {
+    background-color: #2fb3e4;
+}
+
+.mota {
+    font-size: 15px;
+    color: #e8ff44;
+
+}
+.gia {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.hethong {
+    margin-top: 10px;
+    width: 540px;
+    height: 272px;
+    background-color: #f4f3f3;
+}
+
+.title {
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.diachi {
+    padding-left: 10px;
+}
+
+.giomocua {
+    padding-left: 25px;
+    font-size: 1.3rem;
+}
+
+/* .chitiet {
+    background-color: #f4f3f3;
+    width: 520px;
+} */
+
+.chitiet-sp {
+    width: 540px;
+    /* margin-left: 45px; */
+    background-color: #f4f3f3;
+}
+
+.chuatt {
+    width: 540px;
+    /* margin-left: 45px; */
+    background-color: #f4f3f3;
+    display: flex;
+}
+
+
+.chitietbanner {
+    width: 555px;
+    margin-top: 15px;
+}
+
+
+.chitiet-sp-descrip {
+    width: 580px;
+    /* background-color: #019ad2; */
+    margin-top: 20px;
+}
+
+.antuong {
+    color: #019ad2;
+    
+}
+
+.p-tren {
+    font-size: 1.4rem;
+    text-align: justify;
+    width: 555px;
+
+}
+
+.chitiet-sp-title {
+    text-align: center;
+    background-color: #f4f3f3;
+    
+}
+
+.tinhchat {
+    float: left;
+    margin-left: 15px;
+}
+
+.thongso {
+    float: left;
+    margin-left: 30px;
+}

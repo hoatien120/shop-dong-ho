@@ -1,0 +1,70 @@
+.giohang {
+    font-size: 15px;
+}
+
+.title-giohang {
+    text-align: center;
+    margin-top: 5px;
+    color: #c79978;
+}
+
+
+.chitiet {
+    float: right;
+    line-height: 90px;
+    margin-right: 100px;
+}
+
+.dongia {
+    line-height: 90px;
+}
+
+.soluong {
+    line-height: 90px;
+    margin-left: 26px;
+}
+
+.sotien {
+    line-height: 90px;
+    color: #c79978;
+    font-weight: 500;
+}
+
+.thaotac {
+    line-height: 90px;
+    margin-left: 26px;
+    font-weight: 500;
+
+}
+
+.tongtienhang {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tongtien {
+    color: #c79978;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-dk {
+    width: 150px;
+    height: 35px;
+    font-size: 1.6rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-dk:hover {
+    background-color: #ed5c3f;
+}
+
+.dathang {
+    margin-bottom: 15px;
+}
